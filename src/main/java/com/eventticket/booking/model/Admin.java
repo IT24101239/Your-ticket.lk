@@ -36,7 +36,5 @@ public class Admin {
         return password;
     }
 
-    public void setPassword(){
-        this.password=password;
-    }
+
 }

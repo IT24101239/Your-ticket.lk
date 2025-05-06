@@ -1,0 +1,78 @@
+.event-card {
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.event-image {
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-details {
+    padding: 20px;
+}
+
+.event-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.event-venue {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.event-datetime {
+    color: #495057;
+    font-size: 0.9rem;
+}
+
+.event-description {
+    color: #6c757d;
+    margin: 10px 0;
+}
+
+.btn-action {
+    margin: 0 5px;
+}
+
+.event-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.event-list {
+    padding: 20px;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.event-header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+.event-title {
+    color: #343a40;
+    margin-bottom: 0;
+}
+
+.event-subtitle {
+    color: #6c757d;
+    font-size: 1.1rem;
+}
+
